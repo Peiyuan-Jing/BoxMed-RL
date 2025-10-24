@@ -33,11 +33,11 @@ All code used for verification is available in the project’s analysis scripts.
 
 ## 📊 Summary of Consistency Checks
 
-| Dataset               | Total Overlap | Split Mismatches          | Filtered Count | Final Leakage Risk  |
-| --------------------- | ------------- | ------------------------- | -------------- | ------------------- |
-| **MS-CXR**            | 1,227         | 349                       | 878            | ⚠️ Moderate (fixed) |
-| **LATTE-CXR Phase 2** | 240           | 0                         | 240            | ✅ None              |
-| **LATTE-CXR Phase 3** | 2,507         | 392 (validate↔train only) | 2,115          | 🟡 Minimal (fixed)  |
+| Dataset               | Total Overlap | Split Mismatches          | Filtered Count | 
+| --------------------- | ------------- | ------------------------- | -------------- | 
+| **MS-CXR**            | 1,227         | 349                       | 878            | 
+| **LATTE-CXR Phase 2** | 240           | 0                         | 240            | 
+| **LATTE-CXR Phase 3** | 2,507         | 392 (validate↔train only) | 2,115          | 
 
 ---
 
