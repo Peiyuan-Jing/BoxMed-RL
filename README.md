@@ -34,3 +34,18 @@ BoxMed-RL demonstrates significant improvements over state-of-the-art methods on
 * Achieves an average **7% improvement** in both **METEOR** and **ROUGE-L** natural language generation metrics.
 * Shows an average **5% improvement** in large language model-based metrics, further underscoring its robustness in generating high-quality reports.
 * Consistently outperforms state-of-the-art methods across language quality, clinical accuracy, and composite evaluation metrics.
+
+---
+
+## Citation
+If you find this work useful for your research, please consider citing our paper:
+
+```
+@article{jing2025reason,
+  title={Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation},
+  author={Jing, Peiyuan and Lee, Kinhei and Zhang, Zhenxuan and Zhou, Huichi and Yuan, Zhengqing and Gao, Zhifan and Zhu, Lei and Papanastasiou, Giorgos and Fang, Yingying and Yang, Guang},
+  journal={Medical Image Analysis},
+  year={2025},
+  publisher={Elsevier}
+}
+```
