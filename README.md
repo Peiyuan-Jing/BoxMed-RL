@@ -2,7 +2,6 @@
 
 [![Paper Accepted](https://img.shields.io/badge/Journal-Medical%20Image%20Analysis-blue.svg?style=for-the-badge)](https://www.elsevier.com/locate/media)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-BoxMed--RL-green.svg?style=for-the-badge)](https://github.com/Peiyuan-Jing/BoxMed-RL/tree/main)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 ## Overview
 
