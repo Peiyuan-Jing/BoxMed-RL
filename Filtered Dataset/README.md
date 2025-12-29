@@ -1,4 +1,4 @@
-# 🩻 Filtered Dataset
+# Filtered Dataset
 
 This folder contains the **filtered subsets** of medical imaging datasets used for the **SVR (Spatial Verification and Reasoning)** stage in our study.
 Each CSV file lists the `dicom_id` entries that have **consistent split alignment** (train / validate / test) with the official **MIMIC-CXR v2.0.0** split, ensuring **no data leakage** between the SVR pretraining datasets and the downstream report-generation phase.
