@@ -1,7 +1,6 @@
 # Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation
 
-[![Paper Accepted](https://img.shields.io/badge/Journal-Medical%20Image%20Analysis-blue.svg?style=for-the-badge)](https://www.elsevier.com/locate/media)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-BoxMed--RL-green.svg?style=for-the-badge)](https://github.com/Peiyuan-Jing/BoxMed-RL/tree/main)
+[![Paper Accepted](https://img.shields.io/badge/Journal-Medical%20Image%20Analysis-blue.svg?style=for-the-badge)](https://www.sciencedirect.com/science/article/pii/S1361841525004566)
 
 ## Overview
 
@@ -40,11 +39,17 @@ BoxMed-RL demonstrates significant improvements over state-of-the-art methods on
 If you find this work useful for your research, please consider citing our paper:
 
 ```
-@article{jing2025reason,
-  title={Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation},
-  author={Jing, Peiyuan and Lee, Kinhei and Zhang, Zhenxuan and Zhou, Huichi and Yuan, Zhengqing and Gao, Zhifan and Zhu, Lei and Papanastasiou, Giorgos and Fang, Yingying and Yang, Guang},
-  journal={Medical Image Analysis},
-  year={2025},
-  publisher={Elsevier}
+@article{JING2026103910,
+title = {Reason like a radiologist: Chain-of-thought and reinforcement learning for verifiable report generation},
+journal = {Medical Image Analysis},
+volume = {109},
+pages = {103910},
+year = {2026},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2025.103910},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841525004566},
+author = {Peiyuan Jing and Kinhei Lee and Zhenxuan Zhang and Huichi Zhou and Zhengqing Yuan and Zhifan Gao and Lei Zhu and Giorgos Papanastasiou and Yingying Fang and Guang Yang},
+keywords = {Radiology report generation, Explainability, Reinforcement learning},
+abstract = {Radiology report generation is critical for efficiency, but current models often lack the structured reasoning of experts and the ability to explicitly ground findings in anatomical evidence, which limits clinical trust and explainability. This paper introduces BoxMed-RL, a unified training framework to generate spatially verifiable and explainable chest X-ray reports. BoxMed-RL advances chest X-ray report generation through two integrated phases: (1) Pretraining Phase. BoxMed-RL learns radiologist-like reasoning through medical concept learning and enforces spatial grounding with reinforcement learning. (2) Downstream Adapter Phase. Pretrained weights are frozen while a lightweight adapter ensures fluency and clinical credibility. Experiments on two widely used public benchmarks (MIMIC-CXR and IU X-Ray) demonstrate that BoxMed-RL achieves an average 7 % improvement in both METEOR and ROUGE-L metrics compared to state-of-the-art methods. An average 5 % improvement in large language model-based metrics further underscores BoxMed-RL’s robustness in generating high-quality reports. Related code and training templates are publicly available at https://github.com/ayanglab/BoxMed-RL.}
 }
 ```
